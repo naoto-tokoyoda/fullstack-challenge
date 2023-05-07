@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_component3_component3s",
+  "info": {
+    "displayName": "Testimonial Section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "quote": {
+      "type": "text"
+    },
+    "author": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "companyLogo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

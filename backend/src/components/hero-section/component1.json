@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_component1_component1s",
+  "info": {
+    "displayName": "Hero Section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "buttonURL": {
+      "type": "string"
+    }
+  }
+}

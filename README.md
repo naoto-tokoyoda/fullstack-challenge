@@ -30,3 +30,8 @@ Language: JavaScript
 Framework: Strapi
 Database: SQLite (using the better-sqlite3 library)
 ```
+
+
+## Screenshots
+
+![My App Screenshot](https://imgur.com/LxxlbLT)

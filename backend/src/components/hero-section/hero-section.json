@@ -1,7 +1,7 @@
 {
-  "collectionName": "components_component1_component1s",
+  "collectionName": "components_hero_section_hero_sections",
   "info": {
-    "displayName": "Hero Section",
+    "displayName": "Hero section",
     "description": ""
   },
   "options": {},
@@ -10,7 +10,7 @@
       "type": "string"
     },
     "subtitle": {
-      "type": "string"
+      "type": "text"
     },
     "image": {
       "type": "media",

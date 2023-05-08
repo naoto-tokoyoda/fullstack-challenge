@@ -1,11 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "pages",
+  "collectionName": "page_without_images",
   "info": {
-    "singularName": "page",
-    "pluralName": "pages",
-    "displayName": "Page",
-    "description": ""
+    "singularName": "page-without-image",
+    "pluralName": "page-without-images",
+    "displayName": "page without image"
   },
   "options": {
     "draftAndPublish": true

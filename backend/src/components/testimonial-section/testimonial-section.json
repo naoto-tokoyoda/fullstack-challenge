@@ -1,18 +1,20 @@
 {
-  "collectionName": "components_component2_component2s",
+  "collectionName": "components_testimonial_section_testimonial_sections",
   "info": {
-    "displayName": "Feature Section",
-    "description": ""
+    "displayName": "testimonial section"
   },
   "options": {},
   "attributes": {
+    "quote": {
+      "type": "text"
+    },
+    "author": {
+      "type": "string"
+    },
     "title": {
       "type": "string"
     },
-    "description": {
-      "type": "text"
-    },
-    "icon": {
+    "image": {
       "allowedTypes": [
         "images",
         "files",
@@ -22,7 +24,7 @@
       "type": "media",
       "multiple": false
     },
-    "image": {
+    "companyLogo": {
       "allowedTypes": [
         "images",
         "files",

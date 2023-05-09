@@ -3,7 +3,7 @@ import axios from 'axios';
 import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
 
-const API_URL = 'http://localhost:1337';
+const API_URL = 'http://localhost:1337/api';
 
 async function loginUser(email: string, password: string) {
   const response = await axios.get(`${API_URL}/users?email=${email}`);

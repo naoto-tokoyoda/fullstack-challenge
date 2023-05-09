@@ -2,18 +2,19 @@ import { NextApiRequest, NextApiResponse } from 'next';
 import axios from 'axios';
 import bcrypt from 'bcrypt';
 
-const API_URL = 'http://localhost:1337';
+const API_URL = 'http://localhost:1337/auth/local/register';
+
 
 async function createUser(username: string, email: string, password: string) {
-  const hashedPassword = await bcrypt.hash(password, 10);
-  const response = await axios.post(`${API_URL}/users`, {
+  const response = await axios.post(API_URL, {
     username,
     email,
-    password: hashedPassword,
+    password,
   });
 
   return response.data;
 }
+
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
   const { username, email, password } = req.body;
